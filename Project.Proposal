@@ -1,1 +1,67 @@
 PBSIT007/#8/Hotel-Reservation-System/Pascua.
+
+
+
+Table of Content
+
+1.Introduction..................................................................................
+2. Project Background...........................................................................
+3. Problem Statement............................................................................
+4. Significance of the Project..................................................................
+5. Current System...............................................................................
+6. General Objective............................................................................
+7. Primary Objective............................................................................
+8. Proposed Solution............................................................................
+9. Implementation Plan..........................................................................
+     9.2. User Interface Design.................................................................
+     9.3. Security Design.......................................................................
+10. Conclusion..................................................................................
+
+
+
+
+Introduction:
+The White Lotus Hotel, renowned for its exceptional hospitality and commitment to guest satisfaction, aims to enhance its operational efficiency and guest experience by modernizing its reservation system. This proposal outlines the plan to implement an online reservation to address the challenges associated with the current booking process.
+
+Project Background:
+The White Lotus Hotel recognizes the need to adapt to modern technologies to stay competitive in the hospitality industry. The current booking process is prone to errors and inefficiencies, hindering the hotel's ability to provide perfect service to its guests.
+
+Problem Statement:
+The current reservation system at White Lotus Hotel leads to errors in reservation details, delays in check-ins, and limitations in guest communication. These challenges affect operational efficiency and compromise the overall guest experience.
+
+Significance of the Project:
+Implementing an online booking system will allow guests to easily book rooms through the hotel's website or mobile app, reduce errors, and enhance guest satisfaction. The modernization of the reservation system aligns with the hotel's commitment to providing exceptional service and staying ahead in the competitive hospitality market.
+
+Current System:
+In a manual booking system, guests typically make reservations by contacting the hotel directly via phone, email, or in person, and the hotel staff then manually record the booking details. These details may be stored in physical files. Manual booking systems is very often prone to errors and can be time-consuming for both guests and staff, as it requires manual processing of booking requests and updates.
+
+General Objective:
+The primary objective of this project is to modernize the reservation system at White Lotus Hotel by implementing a digital reservation platform. This platform will offer enhanced functionality, efficient operations, and improve the overall guest experience.
+Primary Objectives:
+The primary objectives of this project are to:
+•	Implement a digital reservation platform to replace the current manual booking system.
+•	Streamline reservation processes to reduce errors and delays.
+•	Enhance guest experience through improved booking procedures.
+•	Ensure scalability and flexibility to accommodate future growth and technological advancements.
+
+Proposed Solution:
+To address the challenges associated with the current manual booking process, the hotel plans to upgrade its system by implementing a digital reservation platform. This platform will offer the following benefits:
+
+•	Error Reduction: The digital reservation platform will help minimize errors associated with manual booking processes, leading to increased accuracy in reservations and guest information. With the computer program, there is less chance of them writing down the wrong date or room number, and so reservation is less likely to get mixed up.
+•	Efficient Operations: By digitizing the reservation process, the hotel will streamline its operations, enabling staff to focus more on delivering personalized service to guests. Because the system does a lot of the work. the staff can spend more time making sure the costumer have a great stay, rather than filling out paperwork.
+•	Enhanced Guest Experience: The implementation of a modern reservation system will contribute to smoother check-ins, personalized service, and overall guest satisfaction. Costumer can book a room online at any time, day or night, which is super handy when busy or in a different time zone.
+•	Improved Efficiency and Accuracy: The digital reservation platform will optimize workflow and reduce the time required to manage reservations, resulting in increased efficiency and improved accuracy. By using the computer program, the White Lotus Hotel can ensure that the costumer’s booking experience is smooth and their stay is as enjoyable as possible
+
+
+Implementation Plan: 
+In order to achieve the General objective, the system will be implemented using the following programming languages:
+.......
+
+User Interface Design:
+The user interface will be designed to be simple and intuitive. It will include forms for data entry, tables for data display, and buttons for performing actions such as search and update. 
+
+Security Design:
+The digital reservation system will implement role-based access control, which restricts access to data based on the user’s role. It will also implement encryption to protect sensitive data.
+
+Conclusion:
+The modernization of the reservation system at White Lotus Hotel represents a significant step towards improving operational efficiency and guest satisfaction. By embracing technological advancements and implementing a digital reservation platform, the hotel aims to set new standards in the hospitality industry and maintain its reputation for excellence
