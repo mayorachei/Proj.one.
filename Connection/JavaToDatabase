@@ -1,0 +1,50 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class ConnectionToDB {
+   
+    public Connection createConnection() throws SQLException {
+        Connection connection = null;
+        try { 
+            String url = "jdbc:mysql://localhost:49671/hotel_db";
+            String user = "root";
+            String password = "your_password_here"; 
+            connection = DriverManager.getConnection(url, user, password);
+        } catch (SQLException ex) {
+            Logger.getLogger(ConnectionToDB.class.getName()).log(Level.SEVERE, null, ex);
+            throw ex; 
+        }
+        return connection;     
+    }
+}
+
+private void ButtonLoginActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        
+        PreparedStatement ps;
+        ResultSet rs;
+        
+        String username = jTextField1.getText();
+        String password = String.valueOf(jPasswordField1.getPassword());
+        
+        if(username.trim().equals(" "));
+        {
+            JOptionpane.showMessageDialog(rootPane, "Enter your Username to Login", "Empty Username", 2);
+        }
+        else if(password.trim().equals(" "));
+        {
+            JOptionpane.showMessageDialog(rootPane, "Enter your Password to Login", "Empty Password", 2);
+        }
+        else {
+                ConnectionToDB myconnection = new ConnectionToDB;
+                        String selecQuery = "SELECT * FROM 'users' WHERE 'username' =? AND 'password'=?";
+                
+                try { 
+             ps = st = myconnection.createConnection().prepareStatement(selectQuery);
+                
+             ps.setString(1, username);
+             ps.setString(2, password);
+             
+             rs = ps.executeQuery();
